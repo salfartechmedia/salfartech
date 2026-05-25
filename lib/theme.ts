@@ -1,4 +1,5 @@
-export type Theme = typeof DARK;
+// export type Theme = typeof DARK;
+export type Theme = typeof DARK | typeof LIGHT;
 
 export const DARK = {
   bg:          "#04091E",
